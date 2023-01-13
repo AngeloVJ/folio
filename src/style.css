@@ -8,6 +8,15 @@
         --white: hsl(0, 0%, 100%);
 }
 
+body.darkmode {
+    --yellow: hsl(41, 100%, 47%);
+    --black: hsl(0, 0%, 96%);
+    --black2: hsl(240, 2%, 65%);
+    --white2: hsl(0, 3%, 7%);
+    --white: hsl(0, 0%, 0%);
+    font-weight: bold;
+}
+
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -50,6 +59,37 @@ h2 {
     display: block;
     position: relative;
     z-index: 9
+}
+
+.moon {
+    position: fixed;
+    z-index: 2000;
+    margin: 2rem;
+    font-size: 30px;
+    opacity: 0.6;
+}
+
+.moon:hover{
+    transform: translate(0px, 3.5px);
+    transition: transform 0.5s;
+    font-size: 32px;
+    opacity: 1;
+}
+
+.bx-moon {
+    display: block;
+}
+
+.bxs-moon {
+    display: none;
+}
+
+.moon__none {
+    display: none;
+}
+
+.moon__block {
+    display: block;
 }
 
 .navbar {
