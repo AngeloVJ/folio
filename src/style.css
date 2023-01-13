@@ -199,7 +199,7 @@ h2 {
     font-size: 33px;
     font-family: monospace;
     overflow: hidden; 
-    border-right: 4px solid; var(--yellow); 
+    border-right: 4px solid var(--yellow); 
     white-space: nowrap; 
     margin: 0 auto; 
     animation: typing 2s steps(12), blink .5s infinite step-end alternate;
