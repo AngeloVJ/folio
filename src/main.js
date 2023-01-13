@@ -3,7 +3,7 @@ const menu = document.querySelector(".menu");
 
 iconMenu.addEventListener("click", function () {
     menu.classList.toggle("menu__show");
-});
+})
 
 //moon turn on off
 const moon__dark = document.querySelector(".bx-moon");
